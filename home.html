@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+  <title>무료 영화 스트리밍 - Bongflix</title>
+  <meta charset="utf-8">
+  <h1><a href="home.html">Bongflix</a></h1>
+  <style>
+  body {
+    background-color: black;
+  }
+  a {
+     color:white;
+     font-size: 50px;
+     text-decoration: none;
+
+  }
+
+  h1{
+  text-align: center;
+  }
+
+ #menubar {
+ 	background :RED;
+  text-align: center;
+  word-spacing: 20px;
+  font-weight: bolder;
+
+ }
+ #menubar nav {
+ 	margin : 0;
+ 	padding : 0;
+ 	width : 567px;
+ }
+ #menubar  li {
+ 	display : inline-block;
+ 	list-style-type : none;
+ 	padding : 0px 15px;
+ }
+ #menubar  li a {
+ 	color : black;
+ 	text-decoration : none;
+  font-size: 20px;
+ }
+ #menubar  li a:hover {
+ 	color : blue;
+ }
+
+td,th,tr {
+  color : white;
+  height : 20px;
+	width : 100px;
+	padding : 10px;
+  text-align: center;
+}
+ table {
+   text-align: center;
+
+ }
+ p {
+  padding-left: 100px;
+  font-size: 10px;
+ }
+
+ form.login {
+   color:white;
+   text-align: right;
+ }
+ form.srch{
+   color:white;
+   text-align: left;
+ }
+ body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+
+  background-image: url("movies.jpg");
+
+
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+
+  height: 100%;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  border: 3px solid #f1f1f1;
+  position:absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+
+}
+
+
+ #round3 {
+   border-radius : 0px 20px 40px;
+   width : 300px;
+   padding : 20px;
+   background:blue;
+ }
+ #round4 {
+   border-radius : 0px 20px 40px;
+   width : 300px;
+   padding : 20px;
+   background:green;
+ }
+  </style>
+</head>
+
+<body>
+    <nav id="menubar">
+
+		<li><a href="comingsoon.html">개봉예정작</a></li>
+		<li><a href="toprate.html">추천영화</a></li>
+    <li><a href="adult.html">19+  </a></li>
+    <li><a href="today.html"> 칼럼  </a></li>
+
+</nav>
+
+<form class="login" name="fo" method="get">
+사용자 ID : <input type="text" size="15" value=""><br>
+비밀 번호 : <input type="password" size="15" value=""><br>
+         <input type="submit" value="완료">
+
+</form>
+<form class="srch">
+  영화 찾기 : <input type="search" placeholder="검색어">
+ <input type="button" value="검색">
+</form><hr>
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  <h1>모든 영화 정보를 한번에,</h1>
+  <h3>월 1,700원으로.</h3>
+</div>
+
+<hr>
+<table border="0" align="center" >
+
+  <tr>
+    <td> <p id="round3">단기 구독권 (1개월)  1,700원</p>
+
+    </td>
+    <td><p id="round4">정기 구독권 (6개월)  6,500원</p>
+    </td>
+
+  </tr>
+
+</table>
+<hr color = "white">
+<p style = "color:white; opacity:0.5;">
+  업무 제휴 문의 : minsu5840@gmail.com
+<br><br>
+Copyright © 봉플릭스 Bongflix ALL RIGHTS RESERVED.
+</p>
+
+</body>
+
+</html>

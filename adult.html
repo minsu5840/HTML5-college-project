@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+  <title>19 +</title>
+  <meta charset="utf-8">
+  <h1><a href="home.html">Bongflix</a></h1>
+  <style>
+  #menubar {
+  	background :RED;
+   text-align: center;
+   word-spacing: 20px;
+   font-weight: bolder;
+
+  }
+  #menubar nav {
+  	margin : 0;
+  	padding : 0;
+  	width : 567px;
+  }
+  #menubar  li {
+  	display : inline-block;
+  	list-style-type : none;
+  	padding : 0px 15px;
+  }
+  #menubar  li a {
+  	color : black;
+  	text-decoration : none;
+   font-size: 20px;
+  }
+  #menubar  li a:hover {
+  	color : blue;
+  }
+  body{
+  background-color: black;
+  }
+  a {
+   color:white;
+   font-size: 50px;
+   text-decoration: none;
+
+  }
+
+  h1{
+  text-align: center;
+  }
+
+  form{
+
+    color:white;
+  }
+
+  fieldset {
+    text-align: center;
+  }
+  p{
+    text-align: right;
+  }
+
+
+  @keyframes imagelotation {
+	  0% {transform : rotate(0deg);}
+	  50% {transform : rotate(-90deg);}
+	  100% {transform : rotate(90deg);}
+  }
+  #nineteen {
+	  animation-name : imagelotation;
+	  animation-duration : 3s;
+	  animation-iteration-count : infinite;
+  }
+  </style>
+</head>
+<body>
+  <nav id="menubar">
+
+  <li><a href="comingsoon.html">개봉예정작</a></li>
+  <li><a href="toprate.html">추천영화</a></li>
+  <li><a href="adult.html">19+  </a></li>
+  <li><a href="today.html">칼럼  </a></li>
+
+</nav>
+<br><br>
+<div>
+  <form>
+  	<fieldset>
+  		<legend><b>성인 인증</b></legend><br>
+  		이름 : <input type="text"><br><br>
+  		주민등록번호 : <input type="text">-<input type="text"><br><br>
+  		전화번호 : <input type="text">
+      통신사 : <input type="text" list="company"><br>
+			<datalist id="company">
+				<option value="SKT">
+				<option value="LG U+">
+				<option value="KT">
+			</datalist>
+<br><br>
+    입력완료 시 반드시 눌러주세요!  &#9755; <input type="button" value="인증" onClick="location.href='warning.html'"
+
+  	</fieldset>
+    <p>
+     <img id="nineteen" src="omy.jpg" width="100px" alt="animation" >
+    </p>
+  </form>
+
+
+</div>
+  <p style = "color:white; opacity:0.5;">
+    업무 제휴 문의 : minsu5840@gmail.com
+  <br><br>
+  Copyright © 봉플릭스 Bongflix ALL RIGHTS RESERVED.
+  </p>
+</body>
+</html>
